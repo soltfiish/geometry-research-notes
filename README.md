@@ -7,7 +7,7 @@ Research notes and interactive explanations by Ayokunle Olufosoye.
 - [Seven-slide research carousel (PDF)](geometry-research-carousel.pdf)
 
 - [Technical note: model, reduction, results and limitations](geometry-benchmark.md)
-- [Open the interactive gallery online](https://gcs-geometry-notebook.ayokunleolufosoye.chatgpt.site), or download this package and open `gallery/index.html` for offline use.
+- [Open the interactive gallery online](https://soltfiish.github.io/geometry-research-notes/gallery/), or download this package and open `gallery/index.html` for offline use.
 - [Proposed research directions](research-directions.md): a library of validated reductions, constraint graphs and possible Bayesian selection.
 
 The gallery contains 27 exhibits from an earlier research snapshot. It explains ambiguity, measurement assumptions, shape priors and related geometry. It is not an interactive reproduction of the later solver-speed experiment.
@@ -28,5 +28,5 @@ Gallery source records retain their original hashes in [the source manifest](gal
 
 Prepared 25 September 2026. No reuse license has been selected for this package. The gallery's adaptation guide is technical guidance, not a substitute for a license.
 
-Public companion gallery: https://gcs-geometry-notebook.ayokunleolufosoye.chatgpt.site (the original 6 September snapshot).
+Public companion gallery: https://soltfiish.github.io/geometry-research-notes/gallery/ (the original 6 September snapshot).
 
