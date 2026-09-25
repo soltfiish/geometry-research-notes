@@ -1,0 +1,113 @@
+{
+  "checkpoint": "GCS-RIGID-TRIANGLE-007",
+  "independent_analytic_formulas": {
+    "equal": {
+      "third_squared_range_error": "1/100",
+      "minimum": {
+        "height_expression": "sqrt(9 - 1/100)",
+        "height_bracket_exact": [
+          "412087731829/137438953472",
+          "3296701854633/1099511627776"
+        ],
+        "target_expression": "sqrt(1+(sqrt(9 - 1/100)-1)^2)",
+        "target_bracket_exact": [
+          "1228471683903/549755813888",
+          "2456943367807/1099511627776"
+        ]
+      },
+      "maximum": {
+        "height_expression": "sqrt(9 + 1/100)",
+        "height_bracket_exact": [
+          "3300366893957/1099511627776",
+          "1650183446979/549755813888"
+        ],
+        "target_expression": "sqrt(1+(sqrt(9 + 1/100)-1)^2)",
+        "target_bracket_exact": [
+          "615055369575/274877906944",
+          "1230110739151/549755813888"
+        ]
+      },
+      "error_bracket_exact": [
+        "3278110493/2199023255552",
+        "102440953/68719476736"
+      ],
+      "error_bracket_decimal": [
+        0.0014907120626048709,
+        0.001490712063969113
+      ]
+    },
+    "lossy": {
+      "third_squared_range_error": "1/10",
+      "minimum": {
+        "height_expression": "sqrt(9 - 1/10)",
+        "height_bracket_exact": [
+          "51252476585/17179869184",
+          "3280158501441/1099511627776"
+        ],
+        "target_expression": "sqrt(1+(sqrt(9 - 1/10)-1)^2)",
+        "target_bracket_exact": [
+          "1221080116867/549755813888",
+          "305270029217/137438953472"
+        ]
+      },
+      "maximum": {
+        "height_expression": "sqrt(9 + 1/10)",
+        "height_bracket_exact": [
+          "3316809454655/1099511627776",
+          "51825147729/17179869184"
+        ],
+        "target_expression": "sqrt(1+(sqrt(9 + 1/10)-1)^2)",
+        "target_bracket_exact": [
+          "154683844309/68719476736",
+          "1237470754473/549755813888"
+        ]
+      },
+      "error_bracket_exact": [
+        "4097659401/274877906944",
+        "8195318803/549755813888"
+      ],
+      "error_bracket_decimal": [
+        0.014907198059518123,
+        0.014907198061337112
+      ]
+    }
+  },
+  "cover_analytic_checks": {
+    "equal_independent": "analytic endpoint enclosures lie inside cover endpoint brackets",
+    "lossy_independent": "analytic endpoint enclosures lie inside cover endpoint brackets"
+  },
+  "equal_case_exact_shape_error_reduction": "0",
+  "lossy_case_error_ratio_exact": [
+    "32781275208/9815082517",
+    "32781275212/9814862615"
+  ],
+  "lossy_case_error_ratio_decimal": [
+    3.3398878869558057,
+    3.339962717552517
+  ],
+  "lossy_case_fractional_reduction_exact": [
+    "22966192691/32781275208",
+    "22966412597/32781275212"
+  ],
+  "lossy_case_fractional_reduction_decimal": [
+    0.7005887521238128,
+    0.7005954603191537
+  ],
+  "positive_orientation_third_coordinate_bounds": [
+    "797/400",
+    "803/400",
+    "1197/400",
+    "1203/400"
+  ],
+  "positive_orientation_third_squared_residual_bounds": [
+    "6009/80000",
+    "6009/80000",
+    "3609/80000"
+  ],
+  "mirror_warning": "The weaker third-vertex observations still exclude a globally distinct reflected triangle.",
+  "cover_nodes": {
+    "equal_independent": 909,
+    "lossy_independent": 1129,
+    "lossy_rigid": 1327
+  }
+}

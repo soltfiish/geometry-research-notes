@@ -1,0 +1,150 @@
+{
+  "checkpoint": "GCS-SCALE-SHAPE-009",
+  "status": "PASS",
+  "capped_profile_exact_cases": 3888,
+  "capped_profile_result_sha256": "7d9a4936f6b769dafcaf51ff7fc3932df041f3d70b0cb7fd1f3e5cd0f18836cb",
+  "representative_capped_cases": [
+    {
+      "nominal_ranges": [
+        "0",
+        "0",
+        "0"
+      ],
+      "alpha": [
+        "1",
+        "0",
+        "0"
+      ],
+      "beta": [
+        "1",
+        "0",
+        "0"
+      ],
+      "reference_cap": [
+        "1/4",
+        "1/2"
+      ],
+      "profile": "1/4",
+      "minimizing_reference": "1/4"
+    },
+    {
+      "nominal_ranges": [
+        "0",
+        "1",
+        "3"
+      ],
+      "alpha": [
+        "1",
+        "1",
+        "0"
+      ],
+      "beta": [
+        "1",
+        "1",
+        "1/2"
+      ],
+      "reference_cap": [
+        "2",
+        "8"
+      ],
+      "profile": "2",
+      "minimizing_reference": "2"
+    },
+    {
+      "nominal_ranges": [
+        "1",
+        "1",
+        "1"
+      ],
+      "alpha": [
+        "1",
+        "2",
+        "0"
+      ],
+      "beta": [
+        "1",
+        "3",
+        "1/2"
+      ],
+      "reference_cap": [
+        "2",
+        "8"
+      ],
+      "profile": "3",
+      "minimizing_reference": "2"
+    },
+    {
+      "nominal_ranges": [
+        "3",
+        "3",
+        "3"
+      ],
+      "alpha": [
+        "1",
+        "2",
+        "2"
+      ],
+      "beta": [
+        "1",
+        "3",
+        "3"
+      ],
+      "reference_cap": [
+        "2",
+        "8"
+      ],
+      "profile": "1",
+      "minimizing_reference": "2"
+    }
+  ],
+  "other_exact_checks": 45,
+  "checks": [
+    "3888 capped-profile values agree with independently enumerated exact breakpoints",
+    "bounded reference range includes boundary where pairwise equalization and cap agree",
+    "adding the middle collinear anchor preserves directional support (Fraction(1, 1), Fraction(0, 1))",
+    "adding the middle collinear anchor preserves directional support (Fraction(0, 1), Fraction(1, 1))",
+    "adding the middle collinear anchor preserves directional support (Fraction(3, 5), Fraction(4, 5))",
+    "adding the middle collinear anchor preserves directional support (Fraction(-3, 5), Fraction(-4, 5))",
+    "two-anchor bisector has exact equal ranges -7",
+    "two-anchor bisector has exact equal ranges 0",
+    "two-anchor bisector has exact equal ranges 9",
+    "third collinear anchor forces a different bisector, so the zero-radius joint set is empty",
+    "at delta zero the weak support set contains a vertical unit vector",
+    "zero times the polar set cannot contain that nonzero vertical vector",
+    "square layout: coordinate axes escape, their diagonal direction does not",
+    "reference cap [2,3] admits this bisector point -2",
+    "reference cap [2,3] admits this bisector point 2",
+    "reference cap [2,3] admits this bisector point -5/2",
+    "reference cap [2,3] admits this bisector point 5/2",
+    "reference lower cap 2 excludes the central bisector point",
+    "two compact components have y squared in [3,8]",
+    "known triangle circumradius at (Fraction(0, 1), Fraction(0, 1))",
+    "known triangle circumradius at (Fraction(1, 1), Fraction(0, 1))",
+    "known triangle circumradius at (Fraction(0, 1), Fraction(1, 1))",
+    "rational rigid rotation (Fraction(1, 1), Fraction(0, 1))",
+    "shared anchor is circumcenter in translated rotated pose (Fraction(1, 1), Fraction(0, 1), (Fraction(0, 1), Fraction(0, 1)))",
+    "shared anchor is circumcenter in translated rotated pose (Fraction(1, 1), Fraction(0, 1), (Fraction(1, 1), Fraction(0, 1)))",
+    "shared anchor is circumcenter in translated rotated pose (Fraction(1, 1), Fraction(0, 1), (Fraction(0, 1), Fraction(1, 1)))",
+    "rational rigid rotation (Fraction(3, 5), Fraction(4, 5))",
+    "shared anchor is circumcenter in translated rotated pose (Fraction(3, 5), Fraction(4, 5), (Fraction(0, 1), Fraction(0, 1)))",
+    "shared anchor is circumcenter in translated rotated pose (Fraction(3, 5), Fraction(4, 5), (Fraction(1, 1), Fraction(0, 1)))",
+    "shared anchor is circumcenter in translated rotated pose (Fraction(3, 5), Fraction(4, 5), (Fraction(0, 1), Fraction(1, 1)))",
+    "rational rigid rotation (Fraction(-5, 13), Fraction(12, 13))",
+    "shared anchor is circumcenter in translated rotated pose (Fraction(-5, 13), Fraction(12, 13), (Fraction(0, 1), Fraction(0, 1)))",
+    "shared anchor is circumcenter in translated rotated pose (Fraction(-5, 13), Fraction(12, 13), (Fraction(1, 1), Fraction(0, 1)))",
+    "shared anchor is circumcenter in translated rotated pose (Fraction(-5, 13), Fraction(12, 13), (Fraction(0, 1), Fraction(1, 1)))",
+    "shared squared-range difference identity ((Fraction(1, 1), Fraction(2, 1)), (Fraction(3, 1), Fraction(4, 1)), (Fraction(-1, 1), Fraction(5, 1)))",
+    "shared squared-range difference identity ((Fraction(-2, 1), Fraction(1, 1)), (Fraction(2, 1), Fraction(-3, 1)), (Fraction(0, 1), Fraction(0, 1)))",
+    "same known triangle allowed arbitrarily far by strict ratio intervals, example (Fraction(20, 1), Fraction(0, 1), Fraction(0, 1))",
+    "same known triangle allowed arbitrarily far by strict ratio intervals, example (Fraction(20, 1), Fraction(1, 1), Fraction(0, 1))",
+    "same known triangle allowed arbitrarily far by strict ratio intervals, example (Fraction(20, 1), Fraction(0, 1), Fraction(1, 1))",
+    "same known triangle allowed arbitrarily far by strict ratio intervals, example (Fraction(100, 1), Fraction(0, 1), Fraction(0, 1))",
+    "same known triangle allowed arbitrarily far by strict ratio intervals, example (Fraction(100, 1), Fraction(1, 1), Fraction(0, 1))",
+    "same known triangle allowed arbitrarily far by strict ratio intervals, example (Fraction(100, 1), Fraction(0, 1), Fraction(1, 1))",
+    "same known triangle allowed arbitrarily far by strict ratio intervals, example (Fraction(1000, 1), Fraction(0, 1), Fraction(0, 1))",
+    "same known triangle allowed arbitrarily far by strict ratio intervals, example (Fraction(1000, 1), Fraction(1, 1), Fraction(0, 1))",
+    "same known triangle allowed arbitrarily far by strict ratio intervals, example (Fraction(1000, 1), Fraction(0, 1), Fraction(1, 1))"
+  ],
+  "proof_scope": "Capped-profile formula, escape-boundary counterexamples, and rigid-shape statements rely on the written general proofs.",
+  "no_originality_claimed": true
+}

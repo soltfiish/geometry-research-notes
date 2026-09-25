@@ -1,0 +1,13 @@
+{
+  "checkpoint": "GCS-PRIOR-VALUE-017",
+  "all_passed": true,
+  "scalar_nonempty_threshold_cases": 30051,
+  "rational_planar_sets": 511,
+  "vector_nonempty_threshold_cases": 12457,
+  "explicit_vector_threshold_optimizations": 1533,
+  "regular_simplex_contact_examples": [
+    "equilateral triangle",
+    "regular tetrahedron"
+  ],
+  "scope": "Finite exact optimization and symbolic audits; the continuous proof is in PRIOR_VALUE_THRESHOLD_THEOREM.md."
+}

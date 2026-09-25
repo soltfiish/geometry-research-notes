@@ -1,0 +1,25 @@
+{
+  "checkpoint": "GCS-FINITE-BOUNDARY-013",
+  "status": "PASS",
+  "archive": "outputs/boundary_audit_source.zip",
+  "archive_sha256": "60ed6609fdb108c34d9d6286712ce707e666636ff41cd310f8f8df384b1e8e74",
+  "archive_bytes": 286051,
+  "manifest_files": 20,
+  "manifest_matches_extracted_files": true,
+  "fresh_reproduction_directory": "work/boundary_audit/reproduction_0f84a0f90c3a",
+  "reproduced_exact_check_records": [
+    {
+      "certificate": "outputs/mixed_boundary_certificate.json",
+      "status": "IDENTICAL",
+      "exit_code": 0
+    },
+    {
+      "certificate": "outputs/partial_scale_independent_checks.json",
+      "status": "IDENTICAL",
+      "exit_code": 0
+    }
+  ],
+  "preserved_context_files_unchanged": true,
+  "figure_visually_reviewed": true,
+  "verification_boundary": "Only the two new exact verifiers were rerun. Mathematical proofs and the independent review establish the stated scope; no broad solver, previous interval-cover rerun, or literature-priority claim."
+}

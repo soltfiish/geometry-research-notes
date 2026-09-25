@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="An interactive gallery of the GCS geometry research: models, assumptions, experiments, proved outcomes and open questions.">
+  <title>GCS · Geometry research gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script defer src="catalog.js"></script>
+  <script defer src="guides.js"></script>
+  <script defer src="evidence-data.js"></script>
+  <script defer src="renderer.js"></script>
+  <script defer src="scenes.js"></script>
+  <script defer src="discoveries.js"></script>
+  <script defer src="discovery-scenes.js"></script>
+  <script defer src="gallery.js"></script>
+</head>
+<body>
+<div style="padding:14px 24px;background:#fff4d9;color:#263449">Companion gallery: earlier geometry research (6 September 2026). These illustrations do not reproduce the later solver-speed benchmark. <a href="../README.md">Read the benchmark evidence and limitations</a>.</div>
+  <header class="topbar">
+    <a class="brand" href="#pose"><span class="brand-mark">G</span><span>GCS <span class="brand-light">/ Geometry notebook</span></span></a>
+    <span class="edition">Research gallery <span id="edition-count"></span></span>
+    <a class="reuse-link" href="REUSE.md">Use this gallery structure</a>
+  </header>
+  <div class="workspace">
+    <aside class="sidebar">
+      <p class="eyebrow">BUILD THE MENTAL MODEL</p>
+      <h1>Explore the geometry.</h1>
+      <p class="sidebar-intro">One model at a time. Change an assumption, then see what follows.</p>
+      <nav id="exhibit-nav" aria-label="Research exhibits"></nav>
+      <div class="sidebar-note"><strong>A drawing is not a proof.</strong><br>Each exhibit separates the illustration from its mathematical evidence.</div>
+    </aside>
+    <main id="main">
+      <label class="mobile-picker">Choose an exhibit<select id="exhibit-select"></select></label>
+      <div class="exhibit-heading">
+        <div><p id="chapter" class="eyebrow"></p><h2 id="exhibit-title"></h2><p id="exhibit-question" class="question"></p></div>
+        <span class="evidence-tag" id="evidence-tag"></span>
+      </div>
+      <div class="lab-grid">
+        <section class="experiment" aria-label="Interactive geometry">
+          <div class="viewer">
+            <div class="viewer-bar"><span id="dimension-label"></span><div class="view-actions">
+              <button id="view-plane" type="button">Plane view</button><button id="view-orbit" type="button">3D view</button><button id="view-fit" type="button">Reset view</button>
+            </div></div>
+            <canvas id="geometry" aria-label="Interactive geometric model. Drag to rotate, scroll to zoom. Keyboard view controls are available above."></canvas>
+            <div class="viewer-footer"><span id="view-caption"></span><span>Drag to orbit · scroll to zoom</span></div>
+          </div>
+          <div class="legend" id="legend" aria-label="Figure legend"></div>
+          <section class="worked-example" aria-label="Worked example">
+            <p class="eyebrow">WORKING EXAMPLE</p>
+            <p id="example-intro"></p>
+            <div id="example-actions" class="example-actions"></div>
+            <p id="example-outcome" class="example-outcome" aria-live="polite"></p>
+          </section>
+          <div id="controls" class="controls" aria-label="Experiment controls"></div>
+          <div id="live-results" class="live-results" aria-live="polite" aria-atomic="true"></div>
+          <div class="reading" id="reading"></div>
+        </section>
+        <aside class="explanation" aria-label="Model and evidence">
+          <section class="plain-guide"><p class="eyebrow">IN PLAIN LANGUAGE</p><span id="characterization" class="characterization"></span><p id="plain-explanation"></p><p class="use-label">POSSIBLE USE CASE</p><p id="use-case"></p></section>
+          <section><p class="eyebrow">WHAT IS ASSUMED</p><ul id="assumptions"></ul></section>
+          <section class="outcome"><p class="eyebrow">WHAT WE FOUND</p><p id="finding"></p></section>
+          <section><p class="eyebrow">HOW TO READ THIS VIEW</p><p id="scope"></p></section>
+          <details id="terms"><summary>Terms in this exhibit</summary><dl id="term-list"></dl></details>
+          <details id="evidence"><summary>Tests, proof and source records</summary><div id="evidence-content"></div></details>
+        </aside>
+      </div>
+      <nav class="tour-nav" aria-label="Guided tour"><button id="previous" type="button">← Previous</button><span id="tour-position"></span><button id="next" type="button">Next exhibit →</button></nav>
+      <footer class="page-footer">GCS research · 6 September 2026 · Displayed decimals are approximations. Proofs and saved certificates carry the guarantees.</footer>
+    </main>
+  </div>
+  <noscript>This gallery needs JavaScript for its interactive models. The linked proof documents remain readable independently.</noscript>
+</body>
+</html>

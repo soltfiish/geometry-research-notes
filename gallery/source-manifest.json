@@ -1,0 +1,285 @@
+{
+  "snapshot_date": "2026-09-06",
+  "files": [
+    {
+      "file": "AMBIGUITY_AND_MEASUREMENT_NOTE.md",
+      "bytes": 12068,
+      "sha256": "89a79c3b95d79317d0c3dbef58320ceef5afe13a682f9ad4ead7b18507d253e4"
+    },
+    {
+      "file": "ANCHOR_SCALE_PROJECTION.md",
+      "bytes": 9423,
+      "sha256": "17b00b19e1b7f0ef447f6cb1408032e89a2312a42c5612e5d2f0dd8c54f0f8f3"
+    },
+    {
+      "file": "BOUNDARY_AUDIT_REPORT.md",
+      "bytes": 5878,
+      "sha256": "0f6cc269ed06428a2c489f7e98bd7f2b35a8a7276f8cdc94a6533e97dbe56529"
+    },
+    {
+      "file": "FAR_FIELD_THEOREM.md",
+      "bytes": 6466,
+      "sha256": "5c73107065cad726d6136df576e8312c4d99f37b9e552dd939e333b3e11d3736"
+    },
+    {
+      "file": "GENERAL_RECOVERY_FRAMEWORK.md",
+      "bytes": 12281,
+      "sha256": "a1fd2ae32788616e520f02599800839996281b6848013001e5133b10004953fd"
+    },
+    {
+      "file": "GEOMETRY_RESEARCH_REPORT.md",
+      "bytes": 6403,
+      "sha256": "f267d165e89102e9f5d38f40789223e344f266dae7aae8ae18f8a1ddd0b3d526"
+    },
+    {
+      "file": "MIXED_BOUNDARY_INDEPENDENT_REVIEW.md",
+      "bytes": 8996,
+      "sha256": "9de164530bee31814a53cd60a7fc63f6955143ed590665917fce3a6e9f412143"
+    },
+    {
+      "file": "MIXED_BOUNDARY_TRIANGLE_THEOREM.md",
+      "bytes": 16271,
+      "sha256": "9071b052b8099502c7419c3bf5d55c071384ecc1125ab292564726758f5e3714"
+    },
+    {
+      "file": "NOISY_CAP_REPORT.md",
+      "bytes": 6804,
+      "sha256": "448d087c0b538c518d309d1b1e9b2243cdb9b8a78a9b6d40e789919e3370be90"
+    },
+    {
+      "file": "NOISY_CAP_TRIANGLE_THEOREMS.md",
+      "bytes": 16215,
+      "sha256": "a4cd7d81d70486c571d03455167c7e5f48103c65a99a38f91541adafac5de3ac"
+    },
+    {
+      "file": "PARTIAL_SCALE_AND_SHAPE_THEOREMS.md",
+      "bytes": 17009,
+      "sha256": "b6d33cd39b5847281bf215c3dbae84ae3172fc71f7aa4f7bd2e957a38c353d78"
+    },
+    {
+      "file": "PARTIAL_SCALE_INDEPENDENT_REVIEW.md",
+      "bytes": 13444,
+      "sha256": "ed88b6ae61a918437640aad7c73e0543362db26097323d7310d6e89c57721d8d"
+    },
+    {
+      "file": "PRIOR_VALUE_THRESHOLD_THEOREM.md",
+      "bytes": 9482,
+      "sha256": "40a76158fb8e0067d9d2a8d156f9f6383a1247f7f29a6e959b1ea893608e75f0"
+    },
+    {
+      "file": "PROOFS.md",
+      "bytes": 23627,
+      "sha256": "87dc45e78008b1235ba9f10d6c37ddef36be1f888f84c6dc34599e67bddadca4"
+    },
+    {
+      "file": "RECOVERY_RESEARCH_REPORT.md",
+      "bytes": 6193,
+      "sha256": "815082cc7ad026c4c60f36bdd4b1c915216ff38a7f08ac1f5cb9a6c4a25f5978"
+    },
+    {
+      "file": "RECOVERY_SPACE_THEOREM.md",
+      "bytes": 13224,
+      "sha256": "559cd041c5f13e27f17732c6ae165d00661850ebe68e0824f8d0f38dd3138657"
+    },
+    {
+      "file": "REFINEMENT_REPORT.md",
+      "bytes": 9468,
+      "sha256": "b8513f4ea69a41ec6a0a773bce76efe64f64c51cee17cc957948ebc3c7bbd595"
+    },
+    {
+      "file": "RESEARCH_FRAMING_REVIEW_2026_09_06.md",
+      "bytes": 12157,
+      "sha256": "6f3604213bdc1a1a21b99de7c2bbab99a7655840e112a3e32945823988326631"
+    },
+    {
+      "file": "RIGID_TRIANGLE_PROOFS.md",
+      "bytes": 11903,
+      "sha256": "cb04b202b39f99aa5c6c916fbe3d090728dd02cc00a781f6bd898be9478e311a"
+    },
+    {
+      "file": "RIGID_TRIANGLE_REPORT.md",
+      "bytes": 9271,
+      "sha256": "caafefe1af6d669d57f0ae0280b29f4f406f96b0fd71596a4ac7c91feb00d27f"
+    },
+    {
+      "file": "ROTATIONAL_SYMMETRY_3D.md",
+      "bytes": 5581,
+      "sha256": "b3da9ea68b15b7e70caa04fb5473af806aa15067e3b57b1f42b64cfebb4b3d9d"
+    },
+    {
+      "file": "SCALE_SHAPE_REPORT.md",
+      "bytes": 8426,
+      "sha256": "3c0455ed9085d2ccd38cb1a09bc65915a8d22a4f1dac739bfe216ce332e64579"
+    },
+    {
+      "file": "SHAPE_RECOVERY_THEOREMS.md",
+      "bytes": 17742,
+      "sha256": "d4117cf7a723e66ff51ef872888f2933ee6e65e9dc80a9afa80c4ae209cb5f13"
+    },
+    {
+      "file": "SHAPE_SPECIFIC_FORMULAS.md",
+      "bytes": 10562,
+      "sha256": "580a0f2fcf5d42f0f55fd83b3c6c08d7f1ef56d5aba6d5baeba664043aea1abc"
+    },
+    {
+      "file": "SHAPE_TOLERANCE_TRANSITION.md",
+      "bytes": 8004,
+      "sha256": "48685ee132bc4b10a4cead1f969d73ef1833b250117f885181e561a8f96be5bf"
+    },
+    {
+      "file": "SHARED_ANCHOR_AND_RADIUS_THEOREMS.md",
+      "bytes": 9575,
+      "sha256": "a557bba83069125f57af709b6b359491705576ecad9755c2c46940601ad43db6"
+    },
+    {
+      "file": "THIRD_BEACON_THEOREM.md",
+      "bytes": 8584,
+      "sha256": "e945638dafc95968cc0eb5b36ae1fe052199ba51b47ddd1119131f2cc2ee33f7"
+    },
+    {
+      "file": "ambiguity_measurements_certificate.json",
+      "bytes": 4047,
+      "sha256": "d43051ee9469a07d545b833593fbe2d738c968e84e512b135b008801678e4dd7"
+    },
+    {
+      "file": "boundary_audit_validation.json",
+      "bytes": 1018,
+      "sha256": "4af0fd9f7dec3082a262a141b4f5f4b89e56be97f02cabf0ac019d945bc25778"
+    },
+    {
+      "file": "mixed_boundary_certificate.json",
+      "bytes": 8041,
+      "sha256": "9ccb9afdffe76e62a4d3b95494b9ad09133f65841ceae3845b7ebb1a08b43da2"
+    },
+    {
+      "file": "noisy_triangle_results.json",
+      "bytes": 17287,
+      "sha256": "2e9f5526b2a49d03a776ff2541946d5c7fb4d6f98e93f6902a108420124986cd"
+    },
+    {
+      "file": "noisy_triangle_validation.json",
+      "bytes": 2000,
+      "sha256": "f35d02cf8c3d0098006e58f8cd4f5d1b4c491a810a4ff5d46037b59c3162f3ea"
+    },
+    {
+      "file": "prior_value_threshold_validation.json",
+      "bytes": 468,
+      "sha256": "aebe94b97a8033d87ece2bfd59725cf2aa951d821007f3959fd08f79490a728a"
+    },
+    {
+      "file": "refined_anchor_certificate.json",
+      "bytes": 42612,
+      "sha256": "b2dcfb2ee26b44c8b19ea20e36e0ec02377e5429b746c6ae1230c35ead09d061"
+    },
+    {
+      "file": "refined_anchor_certificate_independent_validation.json",
+      "bytes": 1386,
+      "sha256": "25cbbc836a6fb1ccc5b45002bf72493a4f7d30cf70fec92bc84650744ccbc551"
+    },
+    {
+      "file": "refined_anchor_large_certificate.json",
+      "bytes": 46482,
+      "sha256": "72ecb64c67835ad32bc1c38ca01f4dd11fffb81b5d7f69dfc8e7c7b7148336d6"
+    },
+    {
+      "file": "refined_anchor_small_certificate.json",
+      "bytes": 40875,
+      "sha256": "7b4af7b31011ca8bb6155768bcb9581a1d51dc80d3911cb75ce97ade4b6772f9"
+    },
+    {
+      "file": "research_certificates.json",
+      "bytes": 63831,
+      "sha256": "658f05ebee617f1fb646e6b2e589de1f5e67b2f88948a5299c75b6e93e3b32f6"
+    },
+    {
+      "file": "rotation_geometry_checks.json",
+      "bytes": 847,
+      "sha256": "1030243ca2fd943788e621a21c5f87657e09350b4b0a1697ce8d5b67fd5e504b"
+    },
+    {
+      "file": "scale_shape_theory_certificate.json",
+      "bytes": 6507,
+      "sha256": "7132205690e85681b96c51b6c7e45bd0d63a7ebff3ce7a4f156eb1b97d663ab3"
+    },
+    {
+      "file": "shape_formula_checks.json",
+      "bytes": 2421,
+      "sha256": "0a0edd69ece6767d729fc73a7ab5f7b476a68da76d4e64cb583ea5299bc4250a"
+    },
+    {
+      "file": "shape_recovery_validation.json",
+      "bytes": 3539,
+      "sha256": "019a0cfa743c9749d15134259d8cda59a65ae273234b35fab5ac8b97b2f41060"
+    },
+    {
+      "file": "shape_tolerance_certificate.json",
+      "bytes": 39683,
+      "sha256": "5a6794d2bb6b9d6dc709ce8d205ec8d0f3b024ef85ff5764a7365f663d815491"
+    },
+    {
+      "file": "shape_tolerance_independent_validation.json",
+      "bytes": 3825,
+      "sha256": "92a97529e017650a27d0b5b817be08757b249e6830bf7916b977fa9adc1b312a"
+    },
+    {
+      "file": "shape_tolerance_transition.json",
+      "bytes": 10505,
+      "sha256": "e73ba3c6501f2768977da84c1dfeb1acc7ac7cf29df127ed4750f98cace94f3b"
+    },
+    {
+      "file": "shared_anchor_radius_certificate.json",
+      "bytes": 4549,
+      "sha256": "68ca2e8d86780e20ae3f4f6b6c2357f2b09fbe9885abc72b234ae0c03dadee57"
+    },
+    {
+      "file": "short_arc_threshold_certificate.json",
+      "bytes": 1714,
+      "sha256": "4dadf5353c983e7795a93426a374a111456a49cf176503f43eeab2b0b84d87c1"
+    },
+    {
+      "file": "third_beacon_physical_pairs.json",
+      "bytes": 3830,
+      "sha256": "359cf8c0ed92d652d33ec0910891e0a63459e835f37f257eada6429684e04656"
+    },
+    {
+      "file": "third_beacon_placement_counterexample.json",
+      "bytes": 3835,
+      "sha256": "765428bd83bee2bf6f8a33970b7aa8434a1137280882dd37306eb398f58e857d"
+    },
+    {
+      "file": "third_beacon_validation.json",
+      "bytes": 1176,
+      "sha256": "58649cdf423bf0888dfec7e843883254165ccfc02e5fe854d3c504dabfeb02d7"
+    },
+    {
+      "file": "triangle_comparison_certificate.json",
+      "bytes": 3400,
+      "sha256": "3bfd852867738576c87b3e2c423ceb9c306fa8e322353a8b7ca3c22fb98503bd"
+    },
+    {
+      "file": "triangle_equal_independent_certificate.json",
+      "bytes": 36936,
+      "sha256": "cc57a15277b375a543bb838f13b93919664624426e1a11741c3854227c8d1781"
+    },
+    {
+      "file": "triangle_equal_rigid_certificate.json",
+      "bytes": 2383,
+      "sha256": "23f9a4afa7396f16dc95714bc9f9ba95eef5afe30976add0b5d4cf980296c830"
+    },
+    {
+      "file": "triangle_lossy_independent_certificate.json",
+      "bytes": 45008,
+      "sha256": "bb0bbfaed923d4f9aaa846353927e7d8e8423422aaf35d8d5c75b8ad425293ff"
+    },
+    {
+      "file": "triangle_lossy_rigid_certificate.json",
+      "bytes": 55847,
+      "sha256": "9240afb3ddb955e78779ba1f39ae4519408c17cc098f17bc64e7ba0383fe922b"
+    },
+    {
+      "file": "triangle_lossy_rigid_certificate_independent_validation.json",
+      "bytes": 1194,
+      "sha256": "2455daba8530cdb4d75cfdf0ff06bb2065374e600c7461a875f786465137b78c"
+    }
+  ]
+}

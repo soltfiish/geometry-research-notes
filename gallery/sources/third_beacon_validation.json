@@ -1,0 +1,44 @@
+{
+  "checkpoint": "GCS-MEASUREMENT-SHAPES-015",
+  "all_passed": true,
+  "negative_checks_rejected": 12,
+  "scope": "O(2) poses including reflections; fixed known third beacon; the prior anchors remain shared and uncertain.",
+  "results": [
+    {
+      "delta_each": "0",
+      "measurement_anchor": [
+        "0",
+        "2"
+      ],
+      "measurement_error": "1/100",
+      "risk_interval": [
+        "1100803278912595391/18446744073709551616",
+        "2387006674377951/40000000000000000"
+      ],
+      "display_risk_interval": [
+        0.059674665323810126,
+        0.05967516685944878
+      ],
+      "enclosure_width": 5.01535638645302e-07,
+      "cover_nodes": 5842
+    },
+    {
+      "delta_each": "1/20",
+      "measurement_anchor": [
+        "0",
+        "2"
+      ],
+      "measurement_error": "1/100",
+      "risk_interval": [
+        "4037788990397042903/36893488147419103232",
+        "5472250068674419/50000000000000000"
+      ],
+      "display_risk_interval": [
+        0.10944448988566313,
+        0.10944500137348838
+      ],
+      "enclosure_width": 5.114878252420942e-07,
+      "cover_nodes": 5588
+    }
+  ]
+}

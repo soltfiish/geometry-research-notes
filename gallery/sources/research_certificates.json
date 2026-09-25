@@ -1,0 +1,3081 @@
+{
+  "experiment": "GCS-CIRCUIT-COMPATIBILITY-002",
+  "arithmetic": "exact SymPy 1.14",
+  "k4_identity": [
+    {
+      "orbit": "singleton",
+      "corrected_identity_verified": true,
+      "r": 1,
+      "extra_degree": 1
+    },
+    {
+      "orbit": "adjacent_pair",
+      "corrected_identity_verified": true,
+      "r": 1,
+      "extra_degree": 1
+    },
+    {
+      "orbit": "disjoint_pair",
+      "corrected_identity_verified": true,
+      "r": 0,
+      "extra_degree": 2
+    },
+    {
+      "orbit": "triangle",
+      "corrected_identity_verified": true,
+      "r": 0,
+      "extra_degree": 1
+    },
+    {
+      "orbit": "three_edge_path",
+      "corrected_identity_verified": true,
+      "r": 0,
+      "extra_degree": 2
+    }
+  ],
+  "k5_two_class": {
+    "reference": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "orbits": [
+      {
+        "orbit": 1,
+        "class_1": [
+          [
+            0,
+            1
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-162*(65*mu - 17)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-180*(13*mu - 9)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-162*(169*mu - 29)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "monochromatic": true
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "monochromatic": true
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "-10614240",
+          "bezout_first": "-1/4536",
+          "bezout_second": "1/1008",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 2,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-18*(65*mu - 353)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-20*(545*mu - 629)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-162*(169*mu - 29)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-800*(68*mu - 29)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "monochromatic": true
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "54540000",
+          "bezout_first": "109/545400",
+          "bezout_second": "-13/606000",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 3,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-36*(85*mu - 121)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-20*(545*mu - 629)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-324*(149*mu - 9)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-3380*(17*mu - 5)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "monochromatic": true
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "8985600",
+          "bezout_first": "109/89856",
+          "bezout_second": "-17/49920",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 4,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-36*(85*mu - 121)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-20*(145*mu - 109)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-36*(841*mu - 1681)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-20*(493*mu - 1585)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "monochromatic": true
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "5961600",
+          "bezout_first": "29/59616",
+          "bezout_second": "-17/33120",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 5,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-18*(193*mu - 25)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-80*(269*mu - 185)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-36*(841*mu - 1681)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-20*(493*mu - 1585)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-10*(1237*mu - 145)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "-41731200",
+          "bezout_first": "-269/521640",
+          "bezout_second": "193/2318400",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 6,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-18*(193*mu - 25)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-800*(41*mu - 53)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-18*(3900*mu**2 + 1201*mu - 841)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-3380*(17*mu - 5)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-676*(5*mu - 29)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "-132537600",
+          "bezout_first": "-41/165672",
+          "bezout_second": "193/7363200",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 7,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-18*(193*mu - 25)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-360*(17*mu - 5)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-18*(3900*mu**2 + 1201*mu - 841)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-100*(969*mu**2 + 179*mu - 464)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-4*(2817*mu**2 + 2900*mu - 2465)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "-3499200",
+          "bezout_first": "-17/9720",
+          "bezout_second": "193/194400",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 8,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "18*(15*mu**2 - 311*mu + 1160)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-20*(650*mu**2 - 383*mu + 9)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "72*(87*mu**2 - 532*mu + 145)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-40*(2465*mu**2 + 502*mu - 1131)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-2*(20213*mu**2 - 10853*mu + 180)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "62415795769632000",
+          "bezout_first": "12766325*mu/866886052356 + 27652609/577924034904",
+          "bezout_second": "39281*mu/128427563312 - 2488699/481603362420",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 9,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-306*(17*mu - 41)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-80*(269*mu - 185)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-1044*(29*mu - 89)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-20*(493*mu - 1585)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-2*(8381*mu - 1985)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "193000320",
+          "bezout_first": "269/2412504",
+          "bezout_second": "-17/630720",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 10,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-18*(193*mu - 25)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-80*(269*mu - 185)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-18*(901*mu - 841)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-500*(41*mu - 29)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-4*(2817*mu**2 + 2900*mu - 2465)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "-41731200",
+          "bezout_first": "-269/521640",
+          "bezout_second": "193/2318400",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 11,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-306*(17*mu - 41)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-720*(17*mu - 1)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-324*(49*mu - 9)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-20*(3230*mu**2 - 491*mu + 9)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-2*(8381*mu**2 + 9715*mu - 4140)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "149817600",
+          "bezout_first": "1/12240",
+          "bezout_second": "-1/28800",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 12,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-18*(193*mu - 25)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-800*(41*mu - 53)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-7200*mu*(17*mu - 2)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-100*(969*mu**2 + 179*mu - 464)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-2*(1980*mu**2 - 8323*mu - 725)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "-132537600",
+          "bezout_first": "-41/165672",
+          "bezout_second": "193/7363200",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 13,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-36*(85*mu - 121)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-100*(275*mu**2 - 65*mu - 294)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-7200*mu*(17*mu - 2)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-100*(1139*mu**2 - 17*mu - 294)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-36*(85*mu - 361)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "-159874560000",
+          "bezout_first": "935*mu/1776384 + 185/296064",
+          "bezout_second": "-289/4934400",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 14,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-306*(17*mu - 41)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-1800*(mu - 5)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-522*(29*mu - 89)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-20*(493*mu - 1585)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 1,
+            "raw_degree_bound": 3,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-4*(2465*mu - 6053)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "-24235200",
+          "bezout_first": "-1/13464",
+          "bezout_second": "17/79200",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 15,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-306*(17*mu - 41)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-1160*(29*mu - 17)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-1044*(29*mu - 89)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-20*(169*mu - 541)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-2*(8381*mu**2 + 9715*mu - 4140)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "319464000",
+          "bezout_first": "29/275400",
+          "bezout_second": "-17/1044000",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 16,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-306*(17*mu - 41)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-720*(17*mu - 1)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-18*(2941*mu - 481)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-100*(1139*mu**2 - 17*mu - 294)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-4*(11339*mu**2 - 3944*mu + 105)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "149817600",
+          "bezout_first": "1/12240",
+          "bezout_second": "-1/28800",
+          "bezout_sum": 1
+        }
+      },
+      {
+        "orbit": 17,
+        "class_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "circuits": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-306*(17*mu - 41)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-1160*(29*mu - 17)"
+          },
+          {
+            "vertices": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-522*(29*mu - 89)"
+          },
+          {
+            "vertices": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 2,
+            "reduced_degree": 1,
+            "degree_preserved": true,
+            "reduced_polynomial": "-1700*(17*mu - 5)"
+          },
+          {
+            "vertices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "structural_zero_power": 0,
+            "raw_degree_bound": 3,
+            "reduced_degree": 2,
+            "degree_preserved": true,
+            "reduced_polynomial": "-4*(11339*mu**2 - 3944*mu + 105)"
+          }
+        ],
+        "certificate": {
+          "first_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "second_vertices": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "resultant": "319464000",
+          "bezout_first": "29/275400",
+          "bezout_second": "-17/1044000",
+          "bezout_sum": 1
+        }
+      }
+    ],
+    "labelled_partitions_covered": 1022
+  },
+  "inherited_geometric_formulas": {
+    "coordinate_gauge": [
+      [
+        0,
+        0
+      ],
+      [
+        "ell",
+        0
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "u",
+        "v"
+      ]
+    ],
+    "affine_cofactors": [
+      "-ell*v + ell*y - u*y + v*x",
+      "u*y - v*x",
+      "ell*v",
+      "-ell*y"
+    ],
+    "gradient_identity": "dF/dd_ij=-8*alpha_i*alpha_j",
+    "singleton_identity": "A-a^2*f=-4*a*alpha_0*alpha_1",
+    "inversion_identity": "|x/r^2-a|^2-|x-a|^2/r^2=(1-1/r^2)(|a|^2-1)",
+    "status": "All identities verified symbolically in generic coordinates."
+  },
+  "inherited_three_class_control": {
+    "source_orbit": "K5-c3-7",
+    "reference": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        6,
+        3
+      ]
+    ],
+    "alternate": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        6,
+        3
+      ]
+    ],
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0
+    ],
+    "edge_order": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "ratios": {
+      "(0, 1)": "1",
+      "(0, 2)": "1",
+      "(0, 3)": "1",
+      "(0, 4)": "1",
+      "(1, 2)": "1",
+      "(1, 3)": "1",
+      "(1, 4)": "1",
+      "(2, 3)": "1/8",
+      "(2, 4)": "1",
+      "(3, 4)": "1"
+    },
+    "collinear_triples": [
+      [
+        0,
+        1,
+        4
+      ]
+    ],
+    "groebner_basis": [
+      "mu - 1",
+      "nu**2 - 9*nu/8 + 1/8"
+    ],
+    "tangent": {
+      "ordinary_rigidity_rank": 7,
+      "ordinary_rigid": true,
+      "coordinated_tangent_rank": 6,
+      "coordinated_tangent_target": 6,
+      "coordinated_tangent_rigid": true,
+      "coordinated_infinitesimal_residual_dimension": 0,
+      "edge_deletion_ranks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "coordinated_redundant_rigid": true,
+      "self_stress_dimension": 3
+    },
+    "correct_weighted_stress_gauge_rank": 2,
+    "inherited_unweighted_projection_rank": 3,
+    "perturbed_reference": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        6,
+        "301/100"
+      ]
+    ],
+    "perturbed_groebner_basis": [
+      "mu - 1",
+      "nu - 1"
+    ],
+    "parametric_perturbation": "p4=(6,3+t)",
+    "groebner_basis_over_Q_t": [
+      "mu - 1",
+      "nu - 1"
+    ],
+    "verdict": "Exact positive Euclidean special-position ambiguity; generic persistence not established and false for this partition."
+  },
+  "all_circuits_counterexample": {
+    "distance_vector": {
+      "(0, 1)": "-2/9",
+      "(0, 2)": "-2/9",
+      "(0, 3)": "2/45",
+      "(0, 4)": "2/45",
+      "(1, 2)": "-2",
+      "(1, 3)": "-2/5",
+      "(1, 4)": "-2/5",
+      "(2, 3)": "-2/5",
+      "(2, 4)": "-2/5",
+      "(3, 4)": "2/5"
+    },
+    "inverse_gram": [
+      [
+        "0",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "1",
+        "0",
+        "-5"
+      ],
+      [
+        "1",
+        "1",
+        "-5",
+        "0"
+      ]
+    ],
+    "gram": [
+      [
+        "-2/9",
+        "7/9",
+        "1/9",
+        "1/9"
+      ],
+      [
+        "7/9",
+        "-2/9",
+        "1/9",
+        "1/9"
+      ],
+      [
+        "1/9",
+        "1/9",
+        "2/45",
+        "-7/45"
+      ],
+      [
+        "1/9",
+        "1/9",
+        "-7/45",
+        "2/45"
+      ]
+    ],
+    "gram_determinant": "1/45",
+    "gram_rank": 4,
+    "K4_circuits_verified": 5,
+    "W5_circuit_completions": [
+      {
+        "missing_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "vertex_order": [
+          4,
+          0,
+          2,
+          1,
+          3
+        ],
+        "anchor_minor": "-1/45",
+        "completion_groebner_basis": [
+          "45*x - 15*y + 34",
+          "25*y**2 - 30*y - 16"
+        ],
+        "completion": [
+          "-8/9",
+          "-2/5"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "vertex_order": [
+          3,
+          0,
+          2,
+          1,
+          4
+        ],
+        "anchor_minor": "-1/45",
+        "completion_groebner_basis": [
+          "45*x - 15*y + 34",
+          "25*y**2 - 30*y - 16"
+        ],
+        "completion": [
+          "-8/9",
+          "-2/5"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "vertex_order": [
+          2,
+          0,
+          3,
+          1,
+          4
+        ],
+        "anchor_minor": "-1/45",
+        "completion_groebner_basis": [
+          "81*x**2 + 90*x + 16",
+          "9*x*y + 8*y",
+          "5*y**2 - 2*y"
+        ],
+        "completion": [
+          "-8/9",
+          "0"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "vertex_order": [
+          4,
+          0,
+          1,
+          2,
+          3
+        ],
+        "anchor_minor": "-1/45",
+        "completion_groebner_basis": [
+          "45*x - 15*y + 34",
+          "25*y**2 - 30*y - 16"
+        ],
+        "completion": [
+          "-8/9",
+          "-2/5"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "vertex_order": [
+          3,
+          0,
+          1,
+          2,
+          4
+        ],
+        "anchor_minor": "-1/45",
+        "completion_groebner_basis": [
+          "45*x - 15*y + 34",
+          "25*y**2 - 30*y - 16"
+        ],
+        "completion": [
+          "-8/9",
+          "-2/5"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "vertex_order": [
+          1,
+          0,
+          3,
+          2,
+          4
+        ],
+        "anchor_minor": "-1/45",
+        "completion_groebner_basis": [
+          "81*x**2 + 90*x + 16",
+          "9*x*y + 8*y",
+          "5*y**2 - 2*y"
+        ],
+        "completion": [
+          "-8/9",
+          "0"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "vertex_order": [
+          4,
+          0,
+          1,
+          3,
+          2
+        ],
+        "anchor_minor": "-1/45",
+        "completion_groebner_basis": [
+          "2025*x**2 - 1530*x + 64",
+          "45*x*y - 32*y",
+          "y**2 + 2*y"
+        ],
+        "completion": [
+          "2/45",
+          "0"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "vertex_order": [
+          2,
+          0,
+          1,
+          3,
+          4
+        ],
+        "anchor_minor": "-5/9",
+        "completion_groebner_basis": [
+          "45*x + 15*y - 26",
+          "25*y**2 - 30*y - 16"
+        ],
+        "completion": [
+          "2/45",
+          "8/5"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "vertex_order": [
+          1,
+          0,
+          2,
+          3,
+          4
+        ],
+        "anchor_minor": "-5/9",
+        "completion_groebner_basis": [
+          "45*x + 15*y - 26",
+          "25*y**2 - 30*y - 16"
+        ],
+        "completion": [
+          "2/45",
+          "8/5"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "vertex_order": [
+          3,
+          0,
+          1,
+          4,
+          2
+        ],
+        "anchor_minor": "-1/45",
+        "completion_groebner_basis": [
+          "2025*x**2 - 1530*x + 64",
+          "45*x*y - 32*y",
+          "y**2 + 2*y"
+        ],
+        "completion": [
+          "2/45",
+          "0"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "vertex_order": [
+          2,
+          0,
+          1,
+          4,
+          3
+        ],
+        "anchor_minor": "-5/9",
+        "completion_groebner_basis": [
+          "45*x + 15*y - 26",
+          "25*y**2 - 30*y - 16"
+        ],
+        "completion": [
+          "2/45",
+          "8/5"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "vertex_order": [
+          1,
+          0,
+          2,
+          4,
+          3
+        ],
+        "anchor_minor": "-5/9",
+        "completion_groebner_basis": [
+          "45*x + 15*y - 26",
+          "25*y**2 - 30*y - 16"
+        ],
+        "completion": [
+          "2/45",
+          "8/5"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "vertex_order": [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        "anchor_minor": "-1/45",
+        "completion_groebner_basis": [
+          "x**2 + 2*x",
+          "x*y",
+          "5*y**2 - 2*y"
+        ],
+        "completion": [
+          "-2",
+          "0"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "vertex_order": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "anchor_minor": "-5/9",
+        "completion_groebner_basis": [
+          "5*x + 5*y - 6",
+          "25*y**2 - 30*y - 16"
+        ],
+        "completion": [
+          "-2/5",
+          "8/5"
+        ],
+        "completed_rank": 2
+      },
+      {
+        "missing_edges": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "vertex_order": [
+          0,
+          1,
+          2,
+          4,
+          3
+        ],
+        "anchor_minor": "-5/9",
+        "completion_groebner_basis": [
+          "5*x + 5*y - 6",
+          "25*y**2 - 30*y - 16"
+        ],
+        "completion": [
+          "-2/5",
+          "8/5"
+        ],
+        "completed_rank": 2
+      }
+    ],
+    "all_twenty_circuits_vanish": true,
+    "all_distances_nonzero": true,
+    "triangle_gram_minors": {
+      "(0, 1, 2)": "-5/9",
+      "(0, 1, 3)": "-1/45",
+      "(0, 1, 4)": "-1/45",
+      "(0, 2, 3)": "-1/45",
+      "(0, 2, 4)": "-1/45",
+      "(0, 3, 4)": "-1/45",
+      "(1, 2, 3)": "-1/5",
+      "(1, 2, 4)": "-1/5",
+      "(1, 3, 4)": "-1/5",
+      "(2, 3, 4)": "-1/5"
+    },
+    "verdict": "All planar K5 matroid circuit polynomials vanish, but no complex planar realization exists."
+  },
+  "generic_inversion_family_example": {
+    "reference": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "alternate": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        "1/4",
+        "1/4"
+      ]
+    ],
+    "classes": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      [
+        [
+          3,
+          4
+        ]
+      ]
+    ],
+    "scales": [
+      "1",
+      "1/8",
+      "85/8"
+    ],
+    "edge_distances_reference": {
+      "(0, 1)": "2",
+      "(0, 2)": "4",
+      "(0, 3)": "8",
+      "(0, 4)": "5",
+      "(1, 2)": "2",
+      "(1, 3)": "10",
+      "(1, 4)": "5",
+      "(2, 3)": "20",
+      "(2, 4)": "13",
+      "(3, 4)": "1"
+    },
+    "edge_distances_alternate": {
+      "(0, 1)": "2",
+      "(0, 2)": "4",
+      "(0, 3)": "8",
+      "(0, 4)": "5/8",
+      "(1, 2)": "2",
+      "(1, 3)": "10",
+      "(1, 4)": "5/8",
+      "(2, 3)": "20",
+      "(2, 4)": "13/8",
+      "(3, 4)": "85/8"
+    },
+    "collinear_triples": [],
+    "mechanism": "Circle inversion of vertex 4 in the unit circumcircle of 0,1,2; fourth spoke is its own class."
+  },
+  "anchor_rank_examples": {
+    "anchors": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "reference_point": [
+      2,
+      7
+    ],
+    "patterns": [
+      {
+        "labels": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "matrix": [
+          [
+            "0",
+            "0",
+            "1",
+            "-53",
+            "0"
+          ],
+          [
+            "-6",
+            "0",
+            "1",
+            "-50",
+            "0"
+          ],
+          [
+            "-8",
+            "-4",
+            "1",
+            "-29",
+            "0"
+          ],
+          [
+            "0",
+            "-6",
+            "1",
+            "-20",
+            "0"
+          ],
+          [
+            "-10",
+            "-10",
+            "1",
+            "0",
+            "-13"
+          ]
+        ],
+        "determinant": "-936"
+      },
+      {
+        "labels": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "matrix": [
+          [
+            "0",
+            "0",
+            "1",
+            "-53",
+            "0"
+          ],
+          [
+            "-6",
+            "0",
+            "1",
+            "-50",
+            "0"
+          ],
+          [
+            "-8",
+            "-4",
+            "1",
+            "-29",
+            "0"
+          ],
+          [
+            "0",
+            "-6",
+            "1",
+            "0",
+            "-20"
+          ],
+          [
+            "-10",
+            "-10",
+            "1",
+            "0",
+            "-13"
+          ]
+        ],
+        "determinant": "-8136"
+      },
+      {
+        "labels": [
+          0,
+          1,
+          1,
+          2,
+          2
+        ],
+        "matrix": [
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "-6",
+            "0",
+            "1",
+            "-50",
+            "0"
+          ],
+          [
+            "-8",
+            "-4",
+            "1",
+            "-29",
+            "0"
+          ],
+          [
+            "0",
+            "-6",
+            "1",
+            "0",
+            "-20"
+          ],
+          [
+            "-10",
+            "-10",
+            "1",
+            "0",
+            "-13"
+          ]
+        ],
+        "determinant": "12428"
+      },
+      {
+        "labels": [
+          0,
+          0,
+          1,
+          2,
+          2
+        ],
+        "matrix": [
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "-6",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "-8",
+            "-4",
+            "1",
+            "-29",
+            "0"
+          ],
+          [
+            "0",
+            "-6",
+            "1",
+            "0",
+            "-20"
+          ],
+          [
+            "-10",
+            "-10",
+            "1",
+            "0",
+            "-13"
+          ]
+        ],
+        "determinant": "21228"
+      },
+      {
+        "labels": [
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        "matrix": [
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "-6",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "-8",
+            "-4",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-6",
+            "1",
+            "-20",
+            "0"
+          ],
+          [
+            "-10",
+            "-10",
+            "1",
+            "0",
+            "-13"
+          ]
+        ],
+        "determinant": "6240"
+      }
+    ]
+  },
+  "positive_non_euclidean": {
+    "distances": {
+      "(0, 1)": "99/100",
+      "(0, 2)": "96/25",
+      "(0, 3)": "819/100",
+      "(0, 4)": "336/25",
+      "(1, 2)": "91/100",
+      "(1, 3)": "84/25",
+      "(1, 4)": "27/4",
+      "(2, 3)": "3/4",
+      "(2, 4)": "64/25",
+      "(3, 4)": "51/100"
+    },
+    "rank": 2,
+    "negative_2_by_2_minor": "-1/25",
+    "complex_realization": "q_i=(i, sqrt(-1)*i^2/10), i=0,...,4",
+    "verdict": "Positive full-measurement-variety point, but not Euclidean."
+  },
+  "bounds": {
+    "N2_2": 5,
+    "N2_3_lower": 6,
+    "N2_3_upper": 70,
+    "weaker_monochromatic_R3_5_bound": 5249,
+    "general_lower": "c+3 for c>=2",
+    "general_upper": "R_ceil(c/2)(c+2) for c>=3; N2(2)=5"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASSED",
+  "scope": "Elementary 3D rotational corollaries; no prior solver rerun or novelty claim.",
+  "symbolic_checks": [
+    "Distance invariance about the anchor axis",
+    "Four rigid-body cross-ranges",
+    "Fifth upper reading",
+    "All rigid side lengths",
+    "Annular equal-range parametrization",
+    "Third-anchor rotational obstruction",
+    "Exact 3D equal-range line"
+  ],
+  "rational_rotation_witnesses": 49,
+  "planar_scale_example": {
+    "components": 2,
+    "set": "x=1, sqrt(3)<=abs(y)<=sqrt(8), z=0"
+  },
+  "three_dimensional_scale_example": {
+    "components": 1,
+    "set": "x=1, 3<=y^2+z^2<=8"
+  },
+  "third_anchor_quarter_turn_squared_ranges": [
+    2,
+    2,
+    6
+  ],
+  "quarter_turn_profile": "(sqrt(6)-sqrt(2))/2",
+  "triangle_rotation_common_squared_range": "5/4+T^2"
+}

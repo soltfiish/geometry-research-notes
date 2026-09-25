@@ -1,0 +1,323 @@
+{
+  "checkpoint": "GCS-FINITE-BOUNDARY-013",
+  "status": "PASS",
+  "checks": [
+    "four-link squared-distance identity",
+    "exact affine squared gap on a fixed ray",
+    "third reading on the distinct-anchor branch requires D >= H",
+    "collapsed-anchor ray satisfies upper reading for Y >= H/2",
+    "fixed-ray sign criterion agrees with solved linear constraints",
+    "quadratic body-coordinate formulation reconstructs original observations",
+    "distinct-anchor poses checked against all original observations",
+    "tangent disks admit arbitrarily distant exact triangle witnesses",
+    "classification cases have direct physical or analytic certificates",
+    "nonempty bounded false-escape example",
+    "first-order pooled test accepts that bounded example",
+    "four-link cycle excludes the false limiting orientation",
+    "the plane-only boundedness assertion fails explicitly in dimension three",
+    "reject corruption: wrong side of the third upper inequality",
+    "reject corruption: perturbed shared-range or shape equation",
+    "reject corruption: collapsed anchor lies outside two disjoint disks",
+    "reject corruption: collapsed ray before its valid upper-reading threshold",
+    "reject corruption: one physical anchor perturbed across all incident links",
+    "sharp reference-range endpoints and interior have physical witnesses",
+    "exact anchors give zero scalar reference uncertainty",
+    "every tested positive ratio tolerance admits exact far-field witnesses"
+  ],
+  "counts": {
+    "fixed_ray_sign_cases_against_symbolic_solution_sets": 147,
+    "quadratic_coordinate_formulation_comparisons": 192,
+    "distinct_anchor_direct_cases": 288,
+    "collapsed_anchor_direct_cases": 54,
+    "disk_classification_instances": 180,
+    "disk_classification_by_regime": {
+      "empty": 29,
+      "bounded_nonempty": 67,
+      "unbounded": 84
+    },
+    "three_dimensional_counterexample_witnesses": 4,
+    "corrupted_physical_witnesses_rejected": 5,
+    "reference_range_endpoint_and_interior_physical_witnesses": 420,
+    "positive_ratio_tolerance_escape_witnesses": 12
+  },
+  "model": {
+    "dimension": 2,
+    "body": "(0,0),(L,0),(0,H); L,H>0",
+    "observations": "D00=D01=D10=D11=r>0; D20<=r",
+    "one_anchor_point_per_physical_anchor": true,
+    "pose": "one translation and orthogonal Q, allowing reflections"
+  },
+  "exact_results": {
+    "distinct_branch": "D>=H; X0=m+-L*J(d/D)/2; X2=X0-H*d/D",
+    "distinct_reference_squared": "(D^2+L^2)/4",
+    "escape_iff": "||c1-c0|| <= delta0+delta1",
+    "bounded_nonempty_iff": "||c1-c0||>delta0+delta1 and ||c1-c0||+delta0+delta1>=H",
+    "empty_iff": "||c1-c0||>delta0+delta1 and ||c1-c0||+delta0+delta1<H",
+    "bounded_position_enclosure": "||X0-(c0+c1)/2|| <= (delta0+delta1+L)/2"
+  },
+  "physical_examples": {
+    "bounded_nominal": {
+      "vertices": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "-1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ]
+      ],
+      "anchors": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "centers": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "radii": [
+        "0",
+        "0"
+      ],
+      "length": "1",
+      "height": "1"
+    },
+    "unbounded_family_at_tangency_member_Y_10": {
+      "vertices": [
+        [
+          "-1/2",
+          "-10"
+        ],
+        [
+          "1/2",
+          "-10"
+        ],
+        [
+          "-1/2",
+          "-9"
+        ]
+      ],
+      "anchors": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "centers": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "radii": [
+        "1",
+        "1"
+      ],
+      "length": "1",
+      "height": "1"
+    },
+    "dimension_three_failure_member_t_1000": {
+      "vertices": [
+        [
+          "0",
+          "-1/2",
+          "1000"
+        ],
+        [
+          "0",
+          "1/2",
+          "1000"
+        ],
+        [
+          "-1",
+          "-1/2",
+          "1000"
+        ]
+      ],
+      "anchors": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "centers": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "radii": [
+        "0",
+        "0"
+      ],
+      "length": "1",
+      "height": "1"
+    }
+  },
+  "reference_range_error_table": [
+    {
+      "delta": "0",
+      "reference_min_squared": "5/4",
+      "reference_max_squared": "5/4",
+      "error_enclosure_exact": [
+        "0",
+        "0"
+      ],
+      "error_enclosure_decimal": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "delta": "1/4",
+      "reference_min_squared": "13/16",
+      "reference_max_squared": "29/16",
+      "error_enclosure_exact": [
+        "1956705771019/8796093022208",
+        "3913411542039/17592186044416"
+      ],
+      "error_enclosure_decimal": [
+        0.22245169145878663,
+        0.22245169145884347
+      ]
+    },
+    {
+      "delta": "1/2",
+      "reference_min_squared": "1/2",
+      "reference_max_squared": "5/2",
+      "error_enclosure_exact": [
+        "15376134412989/35184372088832",
+        "15376134412991/35184372088832"
+      ],
+      "error_enclosure_decimal": [
+        0.43701602444880905,
+        0.4370160244488659
+      ]
+    },
+    {
+      "delta": "3/4",
+      "reference_min_squared": "1/2",
+      "reference_max_squared": "53/16",
+      "error_enclosure_exact": [
+        "19578707851101/35184372088832",
+        "19578707851103/35184372088832"
+      ],
+      "error_enclosure_decimal": [
+        0.5564603455667623,
+        0.5564603455668191
+      ]
+    },
+    {
+      "delta": "99/100",
+      "reference_min_squared": "1/2",
+      "reference_max_squared": "42101/10000",
+      "error_enclosure_exact": [
+        "5914255629745/8796093022208",
+        "11828511259491/17592186044416"
+      ],
+      "error_enclosure_decimal": [
+        0.6723730200229738,
+        0.6723730200230307
+      ]
+    }
+  ],
+  "positive_ratio_tolerance_witnesses": [
+    {
+      "epsilon": "1/2",
+      "T": "2",
+      "reference_squared": "5"
+    },
+    {
+      "epsilon": "1/2",
+      "T": "20",
+      "reference_squared": "401"
+    },
+    {
+      "epsilon": "1/2",
+      "T": "200",
+      "reference_squared": "40001"
+    },
+    {
+      "epsilon": "1/10",
+      "T": "4",
+      "reference_squared": "17"
+    },
+    {
+      "epsilon": "1/10",
+      "T": "40",
+      "reference_squared": "1601"
+    },
+    {
+      "epsilon": "1/10",
+      "T": "400",
+      "reference_squared": "160001"
+    },
+    {
+      "epsilon": "1/100",
+      "T": "13",
+      "reference_squared": "170"
+    },
+    {
+      "epsilon": "1/100",
+      "T": "130",
+      "reference_squared": "16901"
+    },
+    {
+      "epsilon": "1/100",
+      "T": "1300",
+      "reference_squared": "1690001"
+    },
+    {
+      "epsilon": "1/1000",
+      "T": "39",
+      "reference_squared": "1522"
+    },
+    {
+      "epsilon": "1/1000",
+      "T": "390",
+      "reference_squared": "152101"
+    },
+    {
+      "epsilon": "1/1000",
+      "T": "3900",
+      "reference_squared": "15210001"
+    }
+  ],
+  "scope": "Self-contained proofs are in MIXED_BOUNDARY_TRIANGLE_THEOREM.md. Finite exact checks do not prove an unrestricted mixed-boundary theorem. The unbounded constructions are symbolic families; listed members audit original physical constraints. No priority or efficiency claim."
+}

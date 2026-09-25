@@ -1,0 +1,317 @@
+{
+  "checkpoint": "056",
+  "phase": "0 cleanup",
+  "holdout": [
+    {
+      "name": "skew",
+      "parameters": {
+        "R": "11/10",
+        "r": "9/10",
+        "A": "2",
+        "b": "1",
+        "H": "1/5"
+      },
+      "anchors": [
+        [
+          "-6/5",
+          "3/10"
+        ],
+        [
+          "4/5",
+          "-1/2"
+        ],
+        [
+          "1/4",
+          "13/10"
+        ]
+      ],
+      "eps": [
+        "1/40",
+        "3/40",
+        "1/20"
+      ]
+    },
+    {
+      "name": "shifted",
+      "parameters": {
+        "R": "11/10",
+        "r": "9/10",
+        "A": "2",
+        "b": "1",
+        "H": "1/10"
+      },
+      "anchors": [
+        [
+          "3/2",
+          "1/4"
+        ],
+        [
+          "11/4",
+          "-1/2"
+        ],
+        [
+          "7/4",
+          "3/2"
+        ]
+      ],
+      "eps": [
+        "1/25",
+        "1/20",
+        "1/10"
+      ]
+    },
+    {
+      "name": "slender",
+      "parameters": {
+        "R": "11/10",
+        "r": "9/10",
+        "A": "2",
+        "b": "1",
+        "H": "1/20"
+      },
+      "anchors": [
+        [
+          "-4/5",
+          "1/5"
+        ],
+        [
+          "6/5",
+          "1/5"
+        ],
+        [
+          "1/10",
+          "7/25"
+        ]
+      ],
+      "eps": [
+        "1/40",
+        "1/20",
+        "1/8"
+      ]
+    },
+    {
+      "name": "filled_skew",
+      "parameters": {
+        "R": "11/10",
+        "r": "0",
+        "A": "2",
+        "b": "1",
+        "H": "3/20"
+      },
+      "anchors": [
+        [
+          "-7/5",
+          "-1/10"
+        ],
+        [
+          "3/5",
+          "-2/5"
+        ],
+        [
+          "2/5",
+          "8/5"
+        ]
+      ],
+      "eps": [
+        "1/8",
+        "1/20",
+        "1/10"
+      ]
+    },
+    {
+      "name": "near_height_endpoint",
+      "parameters": {
+        "R": "11/10",
+        "r": "9/10",
+        "A": "101/100",
+        "b": "1",
+        "H": "1/20"
+      },
+      "anchors": [
+        [
+          "-11/10",
+          "1/5"
+        ],
+        [
+          "9/10",
+          "-3/10"
+        ],
+        [
+          "-1/5",
+          "6/5"
+        ]
+      ],
+      "eps": [
+        "1/100",
+        "1/40",
+        "1/50"
+      ]
+    },
+    {
+      "name": "wide_unequal",
+      "parameters": {
+        "R": "11/10",
+        "r": "3/5",
+        "A": "2",
+        "b": "1",
+        "H": "0"
+      },
+      "anchors": [
+        [
+          "-2",
+          "1/3"
+        ],
+        [
+          "3/2",
+          "-1/2"
+        ],
+        [
+          "1/3",
+          "5/2"
+        ]
+      ],
+      "eps": [
+        "1/100",
+        "1/4",
+        "1/50"
+      ]
+    }
+  ],
+  "run_order": [
+    {
+      "case": "skew",
+      "form": "original",
+      "inhc4": true
+    },
+    {
+      "case": "skew",
+      "form": "reduced",
+      "inhc4": false
+    },
+    {
+      "case": "slender",
+      "form": "original",
+      "inhc4": true
+    },
+    {
+      "case": "shifted",
+      "form": "reduced",
+      "inhc4": true
+    },
+    {
+      "case": "wide_unequal",
+      "form": "original",
+      "inhc4": false
+    },
+    {
+      "case": "near_height_endpoint",
+      "form": "reduced",
+      "inhc4": false
+    },
+    {
+      "case": "near_height_endpoint",
+      "form": "original",
+      "inhc4": true
+    },
+    {
+      "case": "slender",
+      "form": "reduced",
+      "inhc4": false
+    },
+    {
+      "case": "filled_skew",
+      "form": "original",
+      "inhc4": true
+    },
+    {
+      "case": "slender",
+      "form": "reduced",
+      "inhc4": true
+    },
+    {
+      "case": "wide_unequal",
+      "form": "reduced",
+      "inhc4": false
+    },
+    {
+      "case": "skew",
+      "form": "reduced",
+      "inhc4": true
+    },
+    {
+      "case": "near_height_endpoint",
+      "form": "reduced",
+      "inhc4": true
+    },
+    {
+      "case": "filled_skew",
+      "form": "reduced",
+      "inhc4": true
+    },
+    {
+      "case": "shifted",
+      "form": "original",
+      "inhc4": false
+    },
+    {
+      "case": "skew",
+      "form": "original",
+      "inhc4": false
+    },
+    {
+      "case": "filled_skew",
+      "form": "original",
+      "inhc4": false
+    },
+    {
+      "case": "slender",
+      "form": "original",
+      "inhc4": false
+    },
+    {
+      "case": "near_height_endpoint",
+      "form": "original",
+      "inhc4": false
+    },
+    {
+      "case": "wide_unequal",
+      "form": "original",
+      "inhc4": true
+    },
+    {
+      "case": "wide_unequal",
+      "form": "reduced",
+      "inhc4": true
+    },
+    {
+      "case": "filled_skew",
+      "form": "reduced",
+      "inhc4": false
+    },
+    {
+      "case": "shifted",
+      "form": "reduced",
+      "inhc4": false
+    },
+    {
+      "case": "shifted",
+      "form": "original",
+      "inhc4": true
+    }
+  ],
+  "warmup": 1,
+  "measured_trials": 5,
+  "absolute_objective_tolerance": "1/100000",
+  "relative_objective_tolerance": 0,
+  "trial_timeout_seconds": 30,
+  "seed": 1,
+  "eps_x": 0,
+  "eps_h": 0,
+  "rigor": true,
+  "kkt": false,
+  "witness_gate": "Stop if native COV/parsed-domain replay and exact endpoint correction do not explain the frozen failures.",
+  "external": "SCIP on original only, 5 measured trials plus warmup, 30 second cap, one thread, gap 1e-5, feasibility tolerance 1e-9; BARON/Gurobi only if available.",
+  "external_gate": "If an original SCIP median search time at achieved gap <=1e-5 is <= corresponding fastest reduced-IBEX median, stop and report changed speed story.",
+  "timing": "Native search excludes setup; process batches include one warmup and five measured calls. Peak working set from Windows process counter.",
+  "forbidden": "No frozen evidence changes, oracle cuts, reference warm starts, timed-case tuning, dropped failures, or substituted timings."
+}

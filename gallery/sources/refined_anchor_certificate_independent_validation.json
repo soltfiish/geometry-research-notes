@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "source_certificate": "refined_anchor_certificate.json",
+  "source_sha256": "b2dcfb2ee26b44c8b19ea20e36e0ec02377e5429b746c6ae1230c35ead09d061",
+  "verifier": "standalone standard-library exact integer/rational audit; no generator import",
+  "whole_plane_root_bound_verified": true,
+  "strictly_positive_reference_verified": true,
+  "two_explicit_range_witnesses_verified": true,
+  "every_preorder_node_verified": true,
+  "cover_nodes": 1145,
+  "maximum_cover_depth": 54,
+  "cover_statistics": {
+    "split_nodes": 572,
+    "infeasible_leaves": 419,
+    "target_enclosed_leaves": 154
+  },
+  "endpoint_brackets_exact": {
+    "minimum": [
+      "1532441617743/549755813888",
+      "3064883345437/1099511627776"
+    ],
+    "maximum": [
+      "1578627194459/549755813888",
+      "3157254498869/1099511627776"
+    ]
+  },
+  "optimal_error_bracket_exact": [
+    "92371043481/2199023255552",
+    "92371263383/2199023255552"
+  ],
+  "optimal_error_bracket_approximate": [
+    0.04200548732160314,
+    0.042005587321455096
+  ],
+  "certified_error_bracket_width_exact": "109951/1099511627776",
+  "notes": [
+    "All proof decisions use exact arithmetic.",
+    "The certificate's floating-point summaries and optimizer output are not trusted.",
+    "The finite cover is verified; arbitrary-tolerance termination is not claimed."
+  ]
+}

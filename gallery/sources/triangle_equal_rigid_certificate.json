@@ -1,0 +1,115 @@
+{
+  "checkpoint": "GCS-RIGID-TRIANGLE-007",
+  "status": "ANALYTIC_ENDPOINT_ATTAINMENT",
+  "model_kind": "rigid",
+  "grid_bits": 40,
+  "vertex_squared_range_tolerances": [
+    "1/100",
+    "1/100",
+    "1/100"
+  ],
+  "anchors": [
+    [
+      0,
+      0
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "target": [
+    1,
+    1
+  ],
+  "squared_range_centers": [
+    [
+      8,
+      8,
+      8
+    ],
+    [
+      13,
+      5,
+      13
+    ],
+    [
+      13,
+      13,
+      5
+    ]
+  ],
+  "shape_squared_sides": [
+    1,
+    1,
+    2
+  ],
+  "applicable_independent_formula_range": "0 < e <= 1/10",
+  "independent_target_extrema": {
+    "third_squared_range_error": "1/100",
+    "minimum": {
+      "height_expression": "sqrt(9 - 1/100)",
+      "height_bracket_exact": [
+        "412087731829/137438953472",
+        "3296701854633/1099511627776"
+      ],
+      "target_expression": "sqrt(1+(sqrt(9 - 1/100)-1)^2)",
+      "target_bracket_exact": [
+        "1228471683903/549755813888",
+        "2456943367807/1099511627776"
+      ]
+    },
+    "maximum": {
+      "height_expression": "sqrt(9 + 1/100)",
+      "height_bracket_exact": [
+        "3300366893957/1099511627776",
+        "1650183446979/549755813888"
+      ],
+      "target_expression": "sqrt(1+(sqrt(9 + 1/100)-1)^2)",
+      "target_bracket_exact": [
+        "615055369575/274877906944",
+        "1230110739151/549755813888"
+      ]
+    },
+    "error_bracket_exact": [
+      "3278110493/2199023255552",
+      "102440953/68719476736"
+    ],
+    "error_bracket_decimal": [
+      0.0014907120626048709,
+      0.001490712063969113
+    ]
+  },
+  "rigid_endpoint_pose": {
+    "rotation": "identity",
+    "translation": "(2,sqrt(9 +/- e)-1)",
+    "vertices": [
+      "(2,Y-1)",
+      "(3,Y-1)",
+      "(2,Y)"
+    ],
+    "Y": "sqrt(9 +/- e)",
+    "first_two_vertex_range_residuals": [
+      "(Y-3)*(Y+1)",
+      "(Y-3)*(Y-7)"
+    ],
+    "third_vertex_range_residuals": [
+      "(Y-3)*(Y+3)",
+      "(Y-3)*(Y-5)"
+    ]
+  },
+  "shape_error_equals_independent_error": true,
+  "error_bracket_exact": [
+    "3278110493/2199023255552",
+    "102440953/68719476736"
+  ],
+  "error_bracket_decimal": [
+    0.0014907120626048709,
+    0.001490712063969113
+  ],
+  "proof_document": "RIGID_TRIANGLE_PROOFS.md"
+}

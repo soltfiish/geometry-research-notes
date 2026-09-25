@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "rows_verified": 7,
+  "all_nine_observations_and_all_three_side_intervals_checked_for_every_witness": true,
+  "coordinate_projection_and_both_orientation_branches_checked": true,
+  "rational_square_root_directions_and_final_fraction_arithmetic_checked": true,
+  "independent_analytic_endpoints_and_two_percent_attainment_checked": true,
+  "prior_rigid_upper_bound": {
+    "source_certificate": "triangle_lossy_rigid_certificate.json",
+    "source_sha256": "9240afb3ddb955e78779ba1f39ae4519408c17cc098f17bc64e7ba0383fe922b",
+    "validation": "SHA matches the previously independently validated checkpoint 007 cover; cover not rerun here",
+    "used_for": "tau=0 upper bound only"
+  },
+  "row_results": [
+    {
+      "tau": "0",
+      "error_bracket_exact": [
+        "157037801861/35184372088832",
+        "9815082517/2199023255552"
+      ],
+      "fractional_reduction_bracket_exact": [
+        "22966192691/32781275208",
+        "367462601531/524500403392"
+      ],
+      "minimum_guaranteed_reduction_percent": 70.05887521238128,
+      "exact_zero_gain": false
+    },
+    {
+      "tau": "1/10000",
+      "error_bracket_exact": [
+        "80278119535/17592186044416",
+        "206404404605/35184372088832"
+      ],
+      "fractional_reduction_bracket_exact": [
+        "318095998723/524500403328",
+        "181972082161/262250201696"
+      ],
+      "minimum_guaranteed_reduction_percent": 60.647426904660826,
+      "exact_zero_gain": false
+    },
+    {
+      "tau": "1/1000",
+      "error_bracket_exact": [
+        "96111086975/17592186044416",
+        "292268913345/35184372088832"
+      ],
+      "fractional_reduction_bracket_exact": [
+        "25803498887/58277822592",
+        "166139114721/262250201696"
+      ],
+      "minimum_guaranteed_reduction_percent": 44.27670379459602,
+      "exact_zero_gain": false
+    },
+    {
+      "tau": "1/400",
+      "error_bracket_exact": [
+        "244998732083/35184372088832",
+        "436065650715/35184372088832"
+      ],
+      "fractional_reduction_bracket_exact": [
+        "29478250871/174833467776",
+        "39928810187/74928629056"
+      ],
+      "minimum_guaranteed_reduction_percent": 16.860759696632055,
+      "exact_zero_gain": false
+    },
+    {
+      "tau": "1/200",
+      "error_bracket_exact": [
+        "332959662305/35184372088832",
+        "8195318803/549755813888"
+      ],
+      "fractional_reduction_bracket_exact": [
+        "0",
+        "191540741087/524500403392"
+      ],
+      "minimum_guaranteed_reduction_percent": 0.0,
+      "exact_zero_gain": false
+    },
+    {
+      "tau": "1/100",
+      "error_bracket_exact": [
+        "390225052723/35184372088832",
+        "8195318803/549755813888"
+      ],
+      "fractional_reduction_bracket_exact": [
+        "0",
+        "134275350669/524500403392"
+      ],
+      "minimum_guaranteed_reduction_percent": 0.0,
+      "exact_zero_gain": false
+    },
+    {
+      "tau": "1/50",
+      "error_bracket_exact": [
+        "4097659401/274877906944",
+        "8195318803/549755813888"
+      ],
+      "fractional_reduction_bracket_exact": [
+        "0",
+        "0"
+      ],
+      "minimum_guaranteed_reduction_percent": 0.0,
+      "exact_zero_gain": true
+    }
+  ],
+  "limitations": [
+    "This is a compact extension audit; the tau=0 global upper bound inherits the authenticated earlier cover proof.",
+    "Intermediate upper bounds are conservative; a zero lower bound on gain is inconclusive.",
+    "Two percent is a sufficient zero-gain tolerance, not a proved smallest threshold."
+  ],
+  "source_certificate": "shape_tolerance_certificate.json",
+  "source_sha256": "5a6794d2bb6b9d6dc709ce8d205ec8d0f3b024ef85ff5764a7365f663d815491",
+  "checkpoint": "GCS-SCALE-SHAPE-009"
+}

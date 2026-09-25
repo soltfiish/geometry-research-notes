@@ -1,0 +1,142 @@
+{
+  "checkpoint": "GCS-MEASUREMENT-SHAPES-015",
+  "all_passed": true,
+  "evidence_scope": "Exact finite/symbolic audits; general claims rely on the written proofs.",
+  "circle_sphere": {
+    "exact_elimination_instances": 10800,
+    "d1_counterexample_rejected": true,
+    "unit_radius_epsilon_001": {
+      "near": [
+        0.9950248756218906,
+        1.0050251256281406
+      ],
+      "far_onset": 100,
+      "near_minimax_error": 0.0050001250031250786
+    }
+  },
+  "conditioning": {
+    "regular_simplex_constants": [
+      {
+        "dimension": 1,
+        "unit_edge_mu_squared": "1",
+        "cube_vertices": 2
+      },
+      {
+        "dimension": 2,
+        "unit_edge_mu_squared": "1/4",
+        "cube_vertices": 4
+      },
+      {
+        "dimension": 3,
+        "unit_edge_mu_squared": "2/11",
+        "cube_vertices": 8
+      },
+      {
+        "dimension": 4,
+        "unit_edge_mu_squared": "1/8",
+        "cube_vertices": 16
+      },
+      {
+        "dimension": 5,
+        "unit_edge_mu_squared": "3/29",
+        "cube_vertices": 32
+      },
+      {
+        "dimension": 6,
+        "unit_edge_mu_squared": "1/12",
+        "cube_vertices": 64
+      },
+      {
+        "dimension": 7,
+        "unit_edge_mu_squared": "4/55",
+        "cube_vertices": 128
+      },
+      {
+        "dimension": 8,
+        "unit_edge_mu_squared": "1/16",
+        "cube_vertices": 256
+      },
+      {
+        "dimension": 9,
+        "unit_edge_mu_squared": "5/89",
+        "cube_vertices": 512
+      }
+    ],
+    "rectangle_direction_checks": 976,
+    "quadratic_root_identities": 3
+  },
+  "equal_distance_blocks": {
+    "rectangle_cross_distances": 8,
+    "orthogonal_block_identities": 4,
+    "tetrahedron_unique_anchor": {
+      "x": "1/2",
+      "y": "1/2",
+      "z": "1/2"
+    },
+    "noncyclic_quadrilateral_rejected": true
+  },
+  "flexible_rhombus": {
+    "epsilon": "1/100",
+    "cap": 10,
+    "sides": 1,
+    "anchor": [
+      "981997982001/1000002000001",
+      "9001999997991/1000002000001"
+    ],
+    "rhombus_vertices": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "1999996000002/1000002000001",
+        "3999996000/1000002000001"
+      ],
+      [
+        "999994000001/1000002000001",
+        "3999996000/1000002000001"
+      ]
+    ],
+    "reference_range_squared": "82000160000082/1000002000001",
+    "short_diagonal": "4000/1000001",
+    "area": "3999996000/1000002000001",
+    "square_area": 1,
+    "display": {
+      "short_diagonal": 0.003999996000004,
+      "area": 0.00399998800002,
+      "reference_range": 9.055384917274804
+    }
+  },
+  "arc_and_depth": {
+    "arc_identities": 4,
+    "reflection_threshold_instances": 1830,
+    "unit_half_chord_height_001": {
+      "radius_lower": "10001/200",
+      "radius_upper": null,
+      "visible_curve_error": "1/200",
+      "curvature_upper": "200/10001"
+    },
+    "flat_depth_squared_noise_0001": {
+      "signed_error": "1/100",
+      "unsigned_error": "1/200"
+    }
+  },
+  "general_measurement_relation": {
+    "complete_finite_relation_cases": 343,
+    "vector_half_diameter_counterexample": true
+  },
+  "noncospherical_and_missing_dimension": {
+    "ellipse_sum_identity": true,
+    "unit_cap_10_ellipse_axes_2_1_noise_floor": "3/400",
+    "ellipsoid_exact_section_checks": 164,
+    "equatorial_semiaxes": [
+      2,
+      1
+    ],
+    "axial_semiaxis_upper": null
+  }
+}

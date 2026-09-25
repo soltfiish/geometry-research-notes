@@ -1,0 +1,167 @@
+{
+  "checkpoint": "GCS-SHARED-ANCHOR-TRIANGLE-001",
+  "checks": [
+    "every range residual equals the retained reference residual 0",
+    "every range residual equals the retained reference residual 1",
+    "every range residual equals the retained reference residual 2",
+    "difference matrix determinant and triangle height",
+    "anchor x recovered from actual ranges",
+    "anchor y recovered from actual ranges",
+    "actual ranges satisfy quadratic consistency",
+    "pairwise witness inside shared disk (0, 1)",
+    "pairwise exact observed squared range (0, 1),0",
+    "pairwise exact observed squared range (0, 1),1",
+    "pairwise witness inside shared disk (1, 2)",
+    "pairwise exact observed squared range (1, 2),1",
+    "pairwise exact observed squared range (1, 2),2",
+    "pairwise witness inside shared disk (0, 2)",
+    "pairwise exact observed squared range (0, 2),0",
+    "pairwise exact observed squared range (0, 2),2",
+    "three equal ranges force the circumcenter",
+    "joint shared-anchor inconsistency",
+    "robust interval inconsistency margin",
+    "collinear range differences agree on longitudinal coordinate",
+    "collinear transverse squared coordinate",
+    "collinear reflected branch (1, 3), vertex=0",
+    "collinear reflected branch (1, 3), vertex=2",
+    "collinear reflected branch (1, 3), vertex=5",
+    "collinear reflected branch (1, -3), vertex=0",
+    "collinear reflected branch (1, -3), vertex=2",
+    "collinear reflected branch (1, -3), vertex=5",
+    "off-line disk selects one reflection",
+    "inconsistent collinear differences rejected",
+    "on-line disk gives linear constraint in collinear lift",
+    "chord endpoint lies on reconstructed circle",
+    "height point lies on reconstructed circle",
+    "circle-radius derivative",
+    "circle-radius convexity",
+    "monotone-interval minimax midpoint",
+    "minor-height minimax error",
+    "nominal-radius upper deviation",
+    "relative signed condition number",
+    "radius diverges at zero positive height",
+    "curvature tends to zero at zero height",
+    "exact radius interval h=1/10, epsilon=1/100",
+    "exact radius interval h=1/10, epsilon=1/10",
+    "exact radius interval h=1/10, epsilon=1/5",
+    "exact radius interval h=1, epsilon=1/10",
+    "exact radius interval h=2, epsilon=1/2",
+    "exact radius interval h=1, epsilon=0",
+    "example minimax radius midpoint",
+    "example minimax radius error"
+  ],
+  "checks_passed": 48,
+  "radius_examples": [
+    {
+      "half_chord": "1",
+      "height": "1/10",
+      "height_error": "1/100",
+      "radius_interval": [
+        "10121/2200",
+        "10081/1800"
+      ]
+    },
+    {
+      "half_chord": "1",
+      "height": "1/10",
+      "height_error": "1/10",
+      "radius_interval": [
+        "13/5",
+        "oo"
+      ]
+    },
+    {
+      "half_chord": "1",
+      "height": "1/10",
+      "height_error": "1/5",
+      "radius_interval": [
+        "109/60",
+        "oo"
+      ]
+    },
+    {
+      "half_chord": "1",
+      "height": "1",
+      "height_error": "1/10",
+      "radius_interval": [
+        "1",
+        "181/180"
+      ]
+    },
+    {
+      "half_chord": "1",
+      "height": "2",
+      "height_error": "1/2",
+      "radius_interval": [
+        "13/12",
+        "29/20"
+      ]
+    },
+    {
+      "half_chord": "1",
+      "height": "1",
+      "height_error": "0",
+      "radius_interval": [
+        "1",
+        "1"
+      ]
+    }
+  ],
+  "shared_anchor_counterexample": {
+    "actual_q_minus_one": "16/49",
+    "anchor_radius": "4/7",
+    "common_squared_range": "65/49",
+    "interval_tolerance": "1/100",
+    "necessary_upper_for_q_minus_one": "81/4000",
+    "pairwise_witnesses": [
+      {
+        "anchor": [
+          "-1/7",
+          "-1/7"
+        ],
+        "displacement_squared": "2/49",
+        "pair": [
+          0,
+          1
+        ]
+      },
+      {
+        "anchor": [
+          "1/7",
+          "-1/7"
+        ],
+        "displacement_squared": "2/49",
+        "pair": [
+          1,
+          2
+        ]
+      },
+      {
+        "anchor": [
+          "0",
+          "4/7"
+        ],
+        "displacement_squared": "16/49",
+        "pair": [
+          0,
+          2
+        ]
+      }
+    ],
+    "vertices": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "-1",
+        "0"
+      ]
+    ]
+  },
+  "status": "PASS"
+}

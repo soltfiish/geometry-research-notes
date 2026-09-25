@@ -1,0 +1,54 @@
+{
+  "checkpoint": "GCS-NOISY-CAP-014",
+  "cover_checks": [
+    {
+      "file": "noisy_triangle_cover_e1_100_d0.json",
+      "nodes": 829,
+      "accepted_leaves": 98,
+      "excluded_leaves": 317
+    },
+    {
+      "file": "noisy_triangle_cover_e1_100_d1_20.json",
+      "nodes": 803,
+      "accepted_leaves": 84,
+      "excluded_leaves": 318
+    },
+    {
+      "file": "noisy_triangle_cover_e1_200_d0.json",
+      "nodes": 715,
+      "accepted_leaves": 84,
+      "excluded_leaves": 274
+    },
+    {
+      "file": "noisy_triangle_cover_e1_200_d1_20.json",
+      "nodes": 1147,
+      "accepted_leaves": 183,
+      "excluded_leaves": 391
+    },
+    {
+      "file": "noisy_triangle_cover_e1_50_d0.json",
+      "nodes": 1109,
+      "accepted_leaves": 164,
+      "excluded_leaves": 391
+    },
+    {
+      "file": "noisy_triangle_cover_e1_50_d1_20.json",
+      "nodes": 1259,
+      "accepted_leaves": 218,
+      "excluded_leaves": 412
+    }
+  ],
+  "exact_physical_witnesses": 28,
+  "negative_checks_rejected": 22,
+  "all_passed": true,
+  "method": "Separate rational checker, same research task; not an external peer review or a formal proof assistant.",
+  "hashes": {
+    "noisy_triangle_cover_e1_100_d0.json": "67c7541f8a7d42acf597687a06872392cbfe7be0edbc8abe8b62b58ef4dbc983",
+    "noisy_triangle_cover_e1_100_d1_20.json": "42ec3cbe35c97918482c3fe735ec89624b00f8ae48a9948cab83d0d4e2c77618",
+    "noisy_triangle_cover_e1_200_d0.json": "c21caa7aafc3a71bd43f04e36c2b85cdcfa676b7f2099048d361cd7ba0610225",
+    "noisy_triangle_cover_e1_200_d1_20.json": "0d3435e418e2582bdeb7f3d17f4858d2d8c2ff3380ff438733392cf04cb3776f",
+    "noisy_triangle_cover_e1_50_d0.json": "2f4b2f57363098adc4c68cb6f7f0aa6b889f2644c0ad629f059cf67f7207895c",
+    "noisy_triangle_cover_e1_50_d1_20.json": "96866a9fa4cee010cceb1931f3b9948b889cd01cea016d0a664af98b36d2b738",
+    "noisy_triangle_witnesses.json": "3322271501c77403ca8d626f138fb4143bf77a6eee4c9bcd724ba42287b925c9"
+  }
+}

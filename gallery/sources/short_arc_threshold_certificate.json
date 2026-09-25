@@ -1,0 +1,60 @@
+{
+  "checkpoint": "GCS-RIGID-TRIANGLE-007",
+  "generating_radius_only_not_a_recovery_prior": "10001/200",
+  "height_error": "1/1000",
+  "critical_chord_squared": "100009/250000",
+  "critical_chord_bracket_exact": [
+    "695423503467/1099511627776",
+    "173855875867/274877906944"
+  ],
+  "critical_chord_decimal": [
+    0.6324839918916041,
+    0.6324839918925136
+  ],
+  "rows": [
+    {
+      "nominal_height": "1/1600",
+      "chord_squared": "32003/128000",
+      "chord_bracket_exact": [
+        "549781583087/1099511627776",
+        "34361348943/68719476736"
+      ],
+      "radius_minimum_exact": "125017/6500",
+      "radius_maximum_exact": "unbounded",
+      "minimax_error_exact": "unbounded"
+    },
+    {
+      "nominal_height": "1/400",
+      "chord_squared": "40003/40000",
+      "chord_bracket_exact": [
+        "17180513417/17179869184",
+        "1099552858689/1099511627776"
+      ],
+      "radius_minimum_exact": "250031/7000",
+      "radius_maximum_exact": "250021/3000",
+      "minimax_error_exact": "500027/21000"
+    },
+    {
+      "nominal_height": "1/100",
+      "chord_squared": "4",
+      "chord_bracket_exact": [
+        "2",
+        "2"
+      ],
+      "radius_minimum_exact": "1000121/22000",
+      "radius_maximum_exact": "1000081/18000",
+      "minimax_error_exact": "999901/198000"
+    },
+    {
+      "nominal_height": "1/25",
+      "chord_squared": "9997/625",
+      "chord_bracket_exact": [
+        "4397386754641/1099511627776",
+        "2198693377321/549755813888"
+      ],
+      "radius_minimum_exact": "4000481/82000",
+      "radius_maximum_exact": "307717/6000",
+      "minimax_error_exact": "307477/246000"
+    }
+  ]
+}

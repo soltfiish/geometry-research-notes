@@ -1,0 +1,148 @@
+{
+  "checks": [
+    "general circle-power identity",
+    "general target-distance difference identity",
+    "general normalized squared-ratio separator",
+    "complete positive scale factorization after anchor subtraction",
+    "original anchor squared ranges",
+    "inverse anchor squared ranges",
+    "all original ranges share the exact inverse multiplier",
+    "complete exact solution of the example scale system",
+    "Groebner certificate: X - 2*lambda",
+    "Groebner certificate: Y - 2*lambda",
+    "Groebner certificate: (lambda - 1)*(8*lambda - 1)",
+    "all candidate equations reduce to the exact branch polynomial",
+    "target squared ranges: off_circle",
+    "exact separator in example: off_circle",
+    "target squared ranges: on_circle",
+    "exact separator in example: on_circle",
+    "target squared ranges: equal_target",
+    "exact separator in example: equal_target",
+    "off-circle ratio values",
+    "on-circle ratio values",
+    "equal-target ratio values",
+    "ordinary distance radical",
+    "squared-target minimax midpoint",
+    "squared-target minimax error",
+    "exact near-circle separator family",
+    "fixed nominal admission threshold",
+    "uniform discrimination boundary",
+    "boundary overlap under first truth",
+    "boundary overlap under second truth",
+    "observation interval overlap at epsilon=1",
+    "observation interval overlap at epsilon=839/100",
+    "observation interval overlap at epsilon=42/5",
+    "observation interval overlap at epsilon=9",
+    "multiplicative-error boundary",
+    "multiplicative-error intervals touch at the stated boundary"
+  ],
+  "checks_passed": 35,
+  "example": {
+    "anchors": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "-1",
+        "0"
+      ]
+    ],
+    "groebner_basis": [
+      "X - 2*lambda",
+      "Y - 2*lambda",
+      "8*lambda**2 - 9*lambda + 1"
+    ],
+    "near_circle_separator": "7*h*(h+2)/5",
+    "ordinary_target_error": "(sqrt(170)-4)/8",
+    "ordinary_target_error_decimal": "1.12980060130066218",
+    "ordinary_target_midpoint": "(4+sqrt(170))/8",
+    "ordinary_target_midpoint_decimal": "2.12980060130066218",
+    "scale_solutions": [
+      [
+        "1/4",
+        "1/4",
+        "1/8"
+      ],
+      [
+        "2",
+        "2",
+        "1"
+      ]
+    ],
+    "squared_target_error": "77/16",
+    "squared_target_midpoint": "93/16",
+    "targets": [
+      {
+        "anchor": [
+          "3",
+          "2"
+        ],
+        "name": "off_circle",
+        "ratio_predictions": [
+          "1/5",
+          "17"
+        ],
+        "ratio_separation": "84/5",
+        "squared_target_values": [
+          "1",
+          "85/8"
+        ]
+      },
+      {
+        "anchor": [
+          "0",
+          "-1"
+        ],
+        "name": "on_circle",
+        "ratio_predictions": [
+          "13/5",
+          "13/5"
+        ],
+        "ratio_separation": "0",
+        "squared_target_values": [
+          "13",
+          "13/8"
+        ]
+      },
+      {
+        "anchor": [
+          "1",
+          "5/4"
+        ],
+        "name": "equal_target",
+        "ratio_predictions": [
+          "5/16",
+          "5/2"
+        ],
+        "ratio_separation": "35/16",
+        "squared_target_values": [
+          "25/16",
+          "25/16"
+        ]
+      }
+    ],
+    "x": [
+      "2",
+      "2"
+    ],
+    "x_star": [
+      "1/4",
+      "1/4"
+    ]
+  },
+  "experiment": "GCS-RECOVERY-AMBIGUITY-001",
+  "scope": "Exact algebraic checks supporting the proof note; no novelty claim.",
+  "sympy_version": "1.14.0",
+  "thresholds": {
+    "fixed_nominal_alternate_admitted_at_epsilon": "84/5",
+    "log_error_requires_eta_strictly_less_than": "log(85)/2",
+    "overlap_measurement_at_boundary": "43/5",
+    "relative_error_requires_delta_strictly_less_than": "42/43",
+    "uniform_discrimination_requires_epsilon_strictly_less_than": "42/5"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "source_certificate": "triangle_lossy_rigid_certificate.json",
+  "source_sha256": "9240afb3ddb955e78779ba1f39ae4519408c17cc098f17bc64e7ba0383fe922b",
+  "model_kind": "rigid",
+  "third_squared_range_error": "1/10",
+  "cover_nodes": 1327,
+  "maximum_depth": 53,
+  "all_nine_original_observations_verified": true,
+  "shape_lengths_verified": true,
+  "global_coordinate_and_pose_root_verified": true,
+  "reflection_exclusion_verified": true,
+  "complete_preorder_cover_verified": true,
+  "analytic_independent_endpoints_verified": false,
+  "cover_statistics": {
+    "splits": 663,
+    "target_leaves": 255,
+    "range_exclusions": 399,
+    "coordinate_exclusions": 10
+  },
+  "error_bracket_exact": [
+    "9814862615/2199023255552",
+    "9815082517/2199023255552"
+  ],
+  "error_bracket_approximate": [
+    0.004463282773485844,
+    0.004463382773337798
+  ],
+  "notes": [
+    "Standalone standard-library exact audit; generator and optimizer are not imported.",
+    "Independent model projects all nine readings exactly because the first two nominal vertices are feasible.",
+    "Floating summaries are not used in any proof decision."
+  ]
+}
